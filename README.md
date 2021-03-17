@@ -26,12 +26,13 @@ actionButton.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnc
 // last 4 lines can be replaced with
 // actionButton.display(inViewController: self)
 ```
- 
+ <img src = "https://user-images.githubusercontent.com/69136340/111499149-fc67e700-8785-11eb-9545-6b8dfdc6cede.png" width = "250">
+
 ### 완성
-<img src = "https://user-images.githubusercontent.com/69136340/111499149-fc67e700-8785-11eb-9545-6b8dfdc6cede.png" width = "250">
-<img src = "" width = "250">
-<img src = "" width = "250">
-<img src = "" width = "250">
+<p>
+<img src = "https://user-images.githubusercontent.com/69136340/111503611-3cc96400-878a-11eb-9e8a-afeb1d88797c.png" width = "250">
+<img src = "https://user-images.githubusercontent.com/69136340/111503597-3affa080-878a-11eb-8ab7-f22a5cfc3e77.png" width = "250">
+</p>
 
 ### 출처
 - 출처|https://github.com/jjochen/JJFloatingActionButton
