@@ -15,15 +15,17 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         let actionButton = JJFloatingActionButton()
 
-        actionButton.addItem(title: "item 1", image: UIImage(named: "First")?.withRenderingMode(.alwaysTemplate)) { item in
+        actionButton.buttonColor = #colorLiteral(red: 0.5568627715, green: 0.3529411852, blue: 0.9686274529, alpha: 1)
+        
+        actionButton.addItem(title: "공유하기", image: UIImage(systemName: "square.and.arrow.up.fill")?.withRenderingMode(.alwaysTemplate)) { item in
           // do something
         }
 
-        actionButton.addItem(title: "item 2", image: UIImage(named: "Second")?.withRenderingMode(.alwaysTemplate)) { item in
+        actionButton.addItem(title: "삭제하기", image: UIImage(systemName: "trash.fill")?.withRenderingMode(.alwaysTemplate)) { item in
           // do something
         }
 
-        actionButton.addItem(title: "item 3", image: nil) { item in
+        actionButton.addItem(title: "수정하기", image: UIImage(systemName: "pencil.circle.fill")) { item in
           // do something
         }
 
