@@ -10,6 +10,7 @@ import JJFloatingActionButton
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var titleLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -19,14 +20,17 @@ class ViewController: UIViewController {
         
         actionButton.addItem(title: "공유하기", image: UIImage(systemName: "square.and.arrow.up.fill")?.withRenderingMode(.alwaysTemplate)) { item in
           // do something
+            self.titleLabel.text = "공유하기"
         }
 
         actionButton.addItem(title: "삭제하기", image: UIImage(systemName: "trash.fill")?.withRenderingMode(.alwaysTemplate)) { item in
           // do something
+            self.titleLabel.text = "삭제하기"
         }
 
         actionButton.addItem(title: "수정하기", image: UIImage(systemName: "pencil.circle.fill")) { item in
           // do something
+            self.titleLabel.text = "수정하기"
         }
 
         view.addSubview(actionButton)
